@@ -1,3 +1,4 @@
+/* General page styling */
 body {
     background-color: #404040;
     display: flex;
@@ -6,10 +7,19 @@ body {
     color: white;
     font-family: Arial, sans-serif;
 }
+
+/* Styling for the pendulum canvas */
 canvas {
     background-color: transparent;
     border: 1px solid white;
 }
+
+/* Styling for the control panel */
 .controls {
     margin: 10px;
+}
+
+/* Adjusting the slider width */
+input[type="range"] {
+    width: 200px;
 }
