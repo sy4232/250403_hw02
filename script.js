@@ -8,7 +8,7 @@ let gravity = 9.81; // Acceleration due to gravity
 let length, mass, ballColor;
 let animationFrameId;
 let isRunning = false;
-let timeStep = 0.02; // Slowing down the simulation
+let timeStep = 0.2; // Slowing down the simulation
 
 // Function to initialize the pendulum variables
 function initializePendulum() {
